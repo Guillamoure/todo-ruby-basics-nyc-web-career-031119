@@ -20,7 +20,10 @@ return "Nice"
 end
 
 def last_evaluated_value
-return "expert"
+  status = "novice"
+  status = "professional"
+  status = "expert"
+return status
 end
 
 def pizza_party(topping = "cheese")
